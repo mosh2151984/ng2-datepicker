@@ -56,7 +56,7 @@ export interface CalendarDate {
 export declare const CALENDAR_VALUE_ACCESSOR: any;
 export declare class DatePickerComponent implements ControlValueAccessor, OnInit {
     el: ElementRef;
-    options: DatePickerOptions;
+    options: IDatePickerOptions;
     inputEvents: EventEmitter<{
         type: string;
         data: string | DateModel;
@@ -72,6 +72,7 @@ export declare class DatePickerComponent implements ControlValueAccessor, OnInit
     years: number[];
     yearPicker: boolean;
     scrollOptions: SlimScrollOptions;
+    nameOfweekday(index: number): string;
     minDate: moment.Moment | any;
     maxDate: moment.Moment | any;
     private onTouchedCallback;
