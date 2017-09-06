@@ -4,6 +4,7 @@
 		"target": "es5",
 		"emitDecoratorMetadata": true,
 		"experimentalDecorators": true,
+		"allowSyntheticDefaultImports": true,		
 		"declaration": true,
 		"sourceMap": true,
 		"moduleResolution": "node",

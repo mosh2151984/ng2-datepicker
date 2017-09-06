@@ -1,7 +1,7 @@
 import { ElementRef, OnInit, EventEmitter } from '@angular/core';
 import { ControlValueAccessor } from '@angular/forms';
 import { SlimScrollOptions } from 'ng2-slimscroll';
-import * as moment from 'moment';
+import moment from 'moment';
 export interface IDateModel {
     day: string;
     month: string;

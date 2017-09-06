@@ -1,6 +1,6 @@
 import { Component, ElementRef, Inject, forwardRef, Input, Output, EventEmitter } from '@angular/core';
 import { NG_VALUE_ACCESSOR } from '@angular/forms';
-import * as moment from 'moment';
+import moment from 'moment';
 var Moment = moment.default || moment;
 export var DateModel = (function () {
     function DateModel(obj) {
