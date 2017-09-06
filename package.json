@@ -1,54 +1,62 @@
 {
-  "name": "ng2-datepicker",
-  "version": "1.8.3",
-  "license": "MIT",
-  "scripts": {
-    "ng": "ng",
-    "start": "ng serve",
-    "build": "npm run css && ./node_modules/.bin/ngc -p tsconfig.build.json && rollup -c",
-    "build:cli": "ng build --aot",
-    "build:lib": "nglb --rootDir src/ng2-datepicker --outDir lib-dist",
-    "test": "ng test",
-    "lint": "ng lint",
-    "e2e": "ng e2e",
-    "clean": "rimraf node_modules dist dist-lib",
-    "clean:install": "npm run clean && npm install",
-    "prepublish": "npm run build:lib"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/jkuri/ng2-datepicker.git"
-  },
-  "keywords": [
-    "angular",
-    "angular2",
-    "angular4",
-    "ng2",
-    "ng4",
-    "ngx",
-    "datepicker",
-    "date",
-    "component"
+  "_args": [
+    [
+      {
+        "raw": "ng2-datepicker@^1.8.3",
+        "scope": null,
+        "escapedName": "ng2-datepicker",
+        "name": "ng2-datepicker",
+        "rawSpec": "^1.8.3",
+        "spec": ">=1.8.3 <2.0.0",
+        "type": "range"
+      },
+      "/home/mohamed/work/yetiMedia/webapp"
+    ]
   ],
-  "author": "Jan Kuri <jkuri88@gmail.com>",
+  "_from": "ng2-datepicker@>=1.8.3 <2.0.0",
+  "_id": "ng2-datepicker@1.8.3",
+  "_inCache": true,
+  "_location": "/ng2-datepicker",
+  "_nodeVersion": "7.7.4",
+  "_npmOperationalInternal": {
+    "host": "packages-18-east.internal.npmjs.com",
+    "tmp": "tmp/ng2-datepicker-1.8.3.tgz_1490639478644_0.6998676799703389"
+  },
+  "_npmUser": {
+    "name": "jkuri",
+    "email": "jkuri88@gmail.com"
+  },
+  "_npmVersion": "4.4.4",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "ng2-datepicker@^1.8.3",
+    "scope": null,
+    "escapedName": "ng2-datepicker",
+    "name": "ng2-datepicker",
+    "rawSpec": "^1.8.3",
+    "spec": ">=1.8.3 <2.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/ng2-datepicker/-/ng2-datepicker-1.8.3.tgz",
+  "_shasum": "d23fa044614b809cf331fac8ae97823e85b02df2",
+  "_shrinkwrap": null,
+  "_spec": "ng2-datepicker@^1.8.3",
+  "_where": "/home/mohamed/work/yetiMedia/webapp",
+  "author": {
+    "name": "Jan Kuri",
+    "email": "jkuri88@gmail.com"
+  },
   "bugs": {
     "url": "https://github.com/jkuri/ng2-datepicker/issues"
-  },
-  "homepage": "https://github.com/jkuri/ng2-datepicker#readme",
-  "main": "./lib-dist/ng2-datepicker.module.js",
-  "module": "./lib-dist/ng2-datepicker.module.js",
-  "types": "./lib-dist/ng2-datepicker.module.d.ts",
-  "peerDependencies": {
-    "@angular/common": ">=2.0.0 <5.0.0 || >=4.0.0-beta <5.0.0",
-    "@angular/core": ">=2.0.0 <5.0.0 || >=4.0.0-beta <5.0.0",
-    "@angular/forms": "^2.4.0",
-    "rxjs": ">=5.0.0 || >=5.0.0-beta",
-    "zone.js": ">=0.7.0"
   },
   "dependencies": {
     "moment": "^2.17.1",
     "ng2-slimscroll": "^1.2.6"
   },
+  "description": "Angular2 Datepicker Component",
   "devDependencies": {
     "@angular/cli": "1.0.0-rc.0",
     "@angular/common": "^2.4.0",
@@ -81,5 +89,65 @@
     "tslint": "~4.4.2",
     "typescript": "~2.0.0",
     "zone.js": "^0.7.6"
-  }
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "d23fa044614b809cf331fac8ae97823e85b02df2",
+    "tarball": "https://registry.npmjs.org/ng2-datepicker/-/ng2-datepicker-1.8.3.tgz"
+  },
+  "gitHead": "a9f0ae4ad39e75255e87d3874efbc1080c8026c8",
+  "homepage": "https://github.com/jkuri/ng2-datepicker#readme",
+  "keywords": [
+    "angular",
+    "angular2",
+    "angular4",
+    "ng2",
+    "ng4",
+    "ngx",
+    "datepicker",
+    "date",
+    "component"
+  ],
+  "license": "MIT",
+  "main": "./lib-dist/ng2-datepicker.module.js",
+  "maintainers": [
+    {
+      "name": "ghetolay",
+      "email": "ghetolay@gmail.com"
+    },
+    {
+      "name": "jkuri",
+      "email": "jkuri88@gmail.com"
+    }
+  ],
+  "module": "./lib-dist/ng2-datepicker.module.js",
+  "name": "ng2-datepicker",
+  "optionalDependencies": {},
+  "peerDependencies": {
+    "@angular/common": ">=2.0.0 <5.0.0 || >=4.0.0-beta <5.0.0",
+    "@angular/core": ">=2.0.0 <5.0.0 || >=4.0.0-beta <5.0.0",
+    "@angular/forms": "^2.4.0",
+    "rxjs": ">=5.0.0 || >=5.0.0-beta",
+    "zone.js": ">=0.7.0"
+  },
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jkuri/ng2-datepicker.git"
+  },
+  "scripts": {
+    "build": "npm run css && ./node_modules/.bin/ngc -p tsconfig.build.json && rollup -c",
+    "build:cli": "ng build --aot",
+    "build:lib": "nglb --rootDir src/ng2-datepicker --outDir lib-dist",
+    "clean": "rimraf node_modules dist dist-lib",
+    "clean:install": "npm run clean && npm install",
+    "e2e": "ng e2e",
+    "lint": "ng lint",
+    "ng": "ng",
+    "prepublish": "npm run build:lib",
+    "start": "ng serve",
+    "test": "ng test"
+  },
+  "types": "./lib-dist/ng2-datepicker.module.d.ts",
+  "version": "1.8.3"
 }
